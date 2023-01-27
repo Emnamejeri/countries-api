@@ -1,5 +1,4 @@
 import { makeStyles } from "@material-ui/core/styles";
-import { cyan } from "@mui/material/colors";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -8,8 +7,6 @@ const useStyles = makeStyles((theme) => ({
   },
 
   navigationBar: {
-    backgroundColor: cyan[600],
-
     display: "flex",
     justifyContent: "space-between",
   },

@@ -1,7 +1,8 @@
 import useStyles from "./styles";
 import PublicIcon from "@mui/icons-material/Public";
-import { Typography, AppBar, Toolbar } from "@mui/material";
+import { Typography, AppBar, Toolbar, Container } from "@mui/material";
 import CssBaseline from "@material-ui/core/CssBaseline";
+import CountriesTable from "./CountriesTable";
 
 function App() {
   const classes = useStyles();
@@ -24,6 +25,9 @@ function App() {
           </Typography>{" "}
         </Toolbar>
       </AppBar>
+      <Container>
+        <CountriesTable />{" "}
+      </Container>
     </div>
   );
 }
