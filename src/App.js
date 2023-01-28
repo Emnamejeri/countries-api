@@ -13,19 +13,11 @@ function App() {
       <AppBar position="relative">
         <Toolbar className={classes.navigationBar}>
           {" "}
-          <PublicIcon
-            sx={{ display: { xs: "block", sm: "none" } }}
-            className={classes.icontop}
-          />
-          <Typography
-            variant="h2"
-            sx={{ display: { xs: "none", sm: "block" } }}
-          >
-            World Nations{" "}
-          </Typography>{" "}
+          <PublicIcon className={classes.icontop} />
+          <Typography variant="h3">World Nations </Typography>{" "}
         </Toolbar>
       </AppBar>
-      <Container>
+      <Container className={classes.countries}>
         <CountriesTable />{" "}
       </Container>
     </div>

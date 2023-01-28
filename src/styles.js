@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "space-between",
   },
+  countries: { marginTop: "4rem", display: "flex", justifyContent: "center" },
 }));
 
 export default useStyles;
