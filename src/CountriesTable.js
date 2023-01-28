@@ -18,7 +18,13 @@ export default function DataTable() {
   });
 
   return (
-    <div style={{ height: 700, width: "100%" }}>
+    <div
+      style={{
+        height: 700,
+        width: "50%",
+        margin: "0 auto",
+      }}
+    >
       <DataGrid
         rows={countries}
         columns={columns}

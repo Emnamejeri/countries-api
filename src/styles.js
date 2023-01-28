@@ -8,9 +8,14 @@ const useStyles = makeStyles((theme) => ({
 
   navigationBar: {
     display: "flex",
-    justifyContent: "space-between",
+    justifyContent: "center",
   },
-  countries: { marginTop: "4rem", display: "flex", justifyContent: "center" },
+  countries: {
+    marginTop: "5rem",
+  },
+  icontop: {
+    marginRight: "2rem",
+  },
 }));
 
 export default useStyles;
